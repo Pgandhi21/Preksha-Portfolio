@@ -1,0 +1,14 @@
+$mainColor: #4705c9;
+
+$width: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", "Roboto", sans-serif;
+}
