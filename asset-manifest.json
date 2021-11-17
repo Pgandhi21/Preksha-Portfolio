@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/preksha-portfolio/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/preksha-portfolio/static/js/main.4517cb11.chunk.js",
+    "main.js.map": "/preksha-portfolio/static/js/main.4517cb11.chunk.js.map",
+    "runtime-main.js": "/preksha-portfolio/static/js/runtime-main.8b868aac.js",
+    "runtime-main.js.map": "/preksha-portfolio/static/js/runtime-main.8b868aac.js.map",
+    "static/js/2.b88b9148.chunk.js": "/preksha-portfolio/static/js/2.b88b9148.chunk.js",
+    "static/js/2.b88b9148.chunk.js.map": "/preksha-portfolio/static/js/2.b88b9148.chunk.js.map",
+    "static/js/3.048ab84c.chunk.js": "/preksha-portfolio/static/js/3.048ab84c.chunk.js",
+    "static/js/3.048ab84c.chunk.js.map": "/preksha-portfolio/static/js/3.048ab84c.chunk.js.map",
+    "index.html": "/preksha-portfolio/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/preksha-portfolio/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b88b9148.chunk.js.LICENSE.txt": "/preksha-portfolio/static/js/2.b88b9148.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/preksha-portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b868aac.js",
+    "static/js/2.b88b9148.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.4517cb11.chunk.js"
+  ]
+}
