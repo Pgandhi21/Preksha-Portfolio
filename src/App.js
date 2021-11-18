@@ -1,22 +1,22 @@
 import Navbar from "./components/Navbar";
-import HomePage from "./components/HomePage";
 import Work from "./components/Work";
 import Resume from "./components/Resume";
 import Contact from "./components/ContactMe";
+import AboutMe from "./components/AboutMe";
 import "./App.scss";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="app">
+      <Navbar />
       <div className="sections">
-        <Navbar />
-        <HomePage />
+        <AboutMe />
         <Work />
         <Resume />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }
-
-export default App;

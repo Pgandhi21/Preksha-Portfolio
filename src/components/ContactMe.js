@@ -1,32 +1,25 @@
 import React from "react";
+import { useState } from "react";
+import "./ContactMe.scss";
 
 function ContactMe() {
+  const [message, setMessage] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setMessage(true);
+  };
   return (
-    <section
-      className="container"
-    >
-      <block className="content-title">
-        <h2 id="Contact-Me">
-          Contact Me
-        </h2>
-      </block>
-      <block className="details" id="contact-me-details">
-        <ul>
-          <li> 678-615-8144</li>
-          <li>
-            {" "}
-            <a href="mailto: pg191907@gmail.com">pg191907@gmail.com</a>
-          </li>
-          <li>
-            {" "}
-            <a href="https://github.com/Pgandhi21">Github</a>
-          </li>
-          <li>
-            {" "}
-            <a href="http://www.linkedin.com/in/preksha-gandhi">LinkedIn</a>
-          </li>
-        </ul>
-      </block>
+    <section className="contact-me">
+      <div className="right">
+        <h2>Contact.</h2>
+        <form onSubmit={handleSubmit}>
+          <input type="text" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send</button>
+          {message && <span>Thanks, I'll reply ASAP</span>}
+        </form>
+      </div>
     </section>
   );
 }

@@ -1,11 +1,10 @@
 import React from "react";
+import "./Navbar.scss";
 
 export default function Navbar() {
   return (
     <header className="navbar">
-      <section
-        className="navbar-container"
-      >
+      <section className="navbar-container">
         <h1>Preksha Gandhi</h1>
         <nav>
           <ul>
