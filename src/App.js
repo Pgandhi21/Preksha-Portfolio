@@ -14,7 +14,7 @@ export default function App() {
         <Navbar />
         <div className="sections">
           <Routes>
-            <Route path="/" exact element={<AboutMe />}></Route>
+            <Route path="/" element={<AboutMe />}></Route>
             <Route path="/projects" exact element={<Work />}></Route>
             <Route path="/resume" exact element={<Resume />}></Route>
             <Route path="/contact" exact element={<Contact />}></Route>
