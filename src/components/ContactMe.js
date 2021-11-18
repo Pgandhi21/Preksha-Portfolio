@@ -10,9 +10,9 @@ function ContactMe() {
     setMessage(true);
   };
   return (
-    <section className="contact-me">
-      <div className="right">
-        <h2>Contact.</h2>
+    <section className="contact-me" id="Contact-Me">
+      <div className="container">
+        <h3>Contact</h3>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
