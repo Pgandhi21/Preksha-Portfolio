@@ -1,7 +1,6 @@
 @import "../global.scss";
 
 .contact-me {
-  background-color: aquamarine;
   width: 100%;
   padding: 1rem 1rem;
   display: flex;
@@ -21,7 +20,6 @@
   }
 
   .container {
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +57,7 @@
     }
 
     button {
-      width: 5vw;
+      width: 15vw;
       height: 5vh;
       color: white;
       background-color: crimson;

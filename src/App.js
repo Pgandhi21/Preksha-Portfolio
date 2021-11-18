@@ -5,18 +5,23 @@ import Contact from "./components/ContactMe";
 import AboutMe from "./components/AboutMe";
 import "./App.scss";
 import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 
 export default function App() {
   return (
-    <div className="app">
-      <Navbar />
-      <div className="sections">
-        <AboutMe />
-        <Work />
-        <Resume />
-        <Contact />
+    <Router>
+      <div className="app">
+        <Navbar />
+        <div className="sections">
+          <Routes>
+            <Route path="/" exact element={<AboutMe />}></Route>
+            <Route path="/projects" exact element={<Work />}></Route>
+            <Route path="/resume" exact element={<Resume />}></Route>
+            <Route path="/contact" exact element={<Contact />}></Route>
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }

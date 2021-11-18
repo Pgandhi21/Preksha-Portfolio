@@ -1,7 +1,5 @@
 @import "./globalReset.scss";
 
-$mainColor: #4705c9;
-
 $width: 768px;
 
 @mixin mobile {
@@ -16,6 +14,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
+  background-color: #F28482;
 
   h3 {
     font-size: 1.5rem;

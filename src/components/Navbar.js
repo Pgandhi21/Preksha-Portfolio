@@ -1,28 +1,24 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./Navbar.scss";
 
-export default function Navbar() {
-  return (
+
+function Navbar() {
+    return (
     <header className="navbar">
       <section className="navbar-container">
         <h1>Preksha Gandhi</h1>
         <nav>
           <ul>
-            <li>
-              <a href="#About-Me">About Me</a>
-            </li>
-            <li>
-              <a href="#Work">Work</a>
-            </li>
-            <li>
-              <a href="#Contact-Me">Contact Me</a>
-            </li>
-            <li>
-              <a href="#Resume">Resume</a>
-            </li>
+            <li><Link to="/">About Me</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/resume">Resume</Link></li>
+            <li><Link to="/contact">Contact Me</Link></li>
           </ul>
         </nav>
       </section>
     </header>
   );
 }
+
+export default Navbar

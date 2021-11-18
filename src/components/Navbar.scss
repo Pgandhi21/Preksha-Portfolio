@@ -1,7 +1,7 @@
 @import "../global.scss";
 
 .navbar {
-  background-color: plum;
+  background-color: #84A59D;
   width: 100%;
   height: 10vh;
   position: fixed;
@@ -25,7 +25,8 @@
 
   @include mobile {
     li {
-      display: none;
+      font-size: 1rem;
+      display: flex-wrap;
     }
   }
 }
