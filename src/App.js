@@ -14,10 +14,10 @@ export default function App() {
         <Navbar />
         <div className="sections">
           <Routes>
-            <Route path="/" element={<AboutMe />}></Route>
-            <Route path="/projects" exact element={<Work />}></Route>
-            <Route path="/resume" exact element={<Resume />}></Route>
-            <Route path="/contact" exact element={<Contact />}></Route>
+            <Route path="/preksha-portfolio/" element={<AboutMe />}></Route>
+            <Route path="/preksha-portfolio/projects" exact element={<Work />}></Route>
+            <Route path="/preksha-portfolio/resume" exact element={<Resume />}></Route>
+            <Route path="/preksha-portfolio/contact" exact element={<Contact />}></Route>
           </Routes>
         </div>
         <Footer />

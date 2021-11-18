@@ -10,10 +10,10 @@ function Navbar() {
         <h1>Preksha Gandhi</h1>
         <nav>
           <ul>
-            <li><Link to="/">About Me</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
-            <li><Link to="/contact">Contact Me</Link></li>
+            <li><Link to="/preksha-portfolio/">About Me</Link></li>
+            <li><Link to="/preksha-portfolio/projects">Projects</Link></li>
+            <li><Link to="/preksha-portfolio/resume">Resume</Link></li>
+            <li><Link to="/preksha-portfolio/contact">Contact Me</Link></li>
           </ul>
         </nav>
       </section>
