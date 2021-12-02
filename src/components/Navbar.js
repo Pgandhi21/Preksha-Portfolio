@@ -12,8 +12,7 @@ function Navbar() {
           <ul>
             <li><Link to="/preksha-portfolio/">About Me</Link></li>
             <li><Link to="/preksha-portfolio/projects">Projects</Link></li>
-            <li><Link to="/preksha-portfolio/resume">Resume</Link></li>
-            <li><Link to="/preksha-portfolio/contact">Contact Me</Link></li>
+            <li><Link to="https://drive.google.com/file/d/14XT62A_6Z6Sfyyv1yRrXJSZXW6CtdVyS/view?usp=sharing">Resume</Link></li>
           </ul>
         </nav>
       </section>

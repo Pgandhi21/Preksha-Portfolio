@@ -1,7 +1,5 @@
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
-import Resume from "./components/Resume";
-import Contact from "./components/ContactMe";
 import AboutMe from "./components/AboutMe";
 import "./App.scss";
 import Footer from "./components/Footer";
@@ -16,8 +14,6 @@ export default function App() {
           <Routes>
             <Route path="/preksha-portfolio/" element={<AboutMe />}></Route>
             <Route path="/preksha-portfolio/projects" exact element={<Work />}></Route>
-            <Route path="/preksha-portfolio/resume" exact element={<Resume />}></Route>
-            <Route path="/preksha-portfolio/contact" exact element={<Contact />}></Route>
           </Routes>
         </div>
         <Footer />

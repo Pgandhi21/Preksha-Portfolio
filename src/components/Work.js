@@ -6,11 +6,33 @@ import PlannerImg from "../images/planner.jpg";
 import CityComparisonImg from "../images/Two-City-Comparison-Tool.jpg";
 import BudgetTracker from "../images/BudgetTracker.jpg";
 import FitnessTracker from "../images/FitnessTracker.jpg";
+import Beecomingme from "../images/Beecomingme.jpg"
 
 function Work() {
   return (
     <section className="work">
       <h3 id="Work">Work</h3>
+      
+      <div className="container">
+        <div className="small-container">
+          <div
+            className="item"
+            href="http://beecomingme.com/"
+            style={{
+              backgroundImage: `url(${Beecomingme})`,
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <div>
+            <h4>Beecoming Me</h4>
+            <p>
+              <a href="https://github.com/courtbourt12/beecomingme">
+                Github Repository Link
+              </a>
+            </p>
+          </div>
+        </div>
+
       <div className="container">
         <div className="small-container">
           <div

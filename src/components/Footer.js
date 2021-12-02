@@ -14,6 +14,12 @@ export default function Footer() {
             <li>
               <a href="https://github.com/Pgandhi21" target="_blank" rel="noopenner noreferrer"><FaGithub />GitHub</a>
             </li>
+            <li>
+              Phone: 678-877-9756
+            </li>
+            <li>
+              Email: pg191907@gmail.com
+            </li>
           </ul>
         </nav>
       </section>

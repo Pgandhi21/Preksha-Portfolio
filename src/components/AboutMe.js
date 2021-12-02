@@ -9,14 +9,8 @@ function AboutMe() {
       <div className="container">
         <img src={profilePic} alt="Loading Failed" />
         <p>
-          Hi, I am a former Process Engineer. I graduated from Georgia Institute
-          of Technology with a Bachelor of Science in Chemical Engineering. I
-          took break from work due to health and family issues. While working as
-          a Process Engineer, I dabbled a little in coding and fell in love. To
-          me, coding is similar to Process engineer work as you work to increase
-          productivity, efficiency, and/or accessibility. Currently, I am a
-          student at Georgia Institute of Technology in Full-stack coding
-          bootcamp.
+        Software developer leveraging Process Engineering background to help users to analyze problems and build systems and processes to solve them. Recently earned a certificate in full stack development from the Georgia Tech University Coding Bootcamp, with newly developed skills in MERN stack, Graphql, MySQL, and responsive web design. Known as a self-starting innovative problem solver passionate about developing apps that make an impactful user experience. Recently, I worked on a team to develop a single-page MERN app that helps users achieve a goal by breaking it into steps and having an accountability partner to help/encourage users to be on track. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
+
         </p>
       </div>
     </div>
