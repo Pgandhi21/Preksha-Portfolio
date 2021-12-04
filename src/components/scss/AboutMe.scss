@@ -1,0 +1,19 @@
+@import "../../App.scss";
+
+.about-me {
+  max-width: 100%;
+  img {
+    // resize: auto;
+    max-width: 328px;
+    max-height: 554px;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,24 @@
+@import "../../App.scss";
+
+.resume {
+  width: 100%;
+
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bg-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
