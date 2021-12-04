@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/preksha-portfolio/static/css/main.10137381.chunk.css",
-    "main.js": "/preksha-portfolio/static/js/main.06fe5645.chunk.js",
-    "main.js.map": "/preksha-portfolio/static/js/main.06fe5645.chunk.js.map",
+    "main.css": "/preksha-portfolio/static/css/main.809bf844.chunk.css",
+    "main.js": "/preksha-portfolio/static/js/main.0ff9ed1d.chunk.js",
+    "main.js.map": "/preksha-portfolio/static/js/main.0ff9ed1d.chunk.js.map",
     "runtime-main.js": "/preksha-portfolio/static/js/runtime-main.b5a19b64.js",
     "runtime-main.js.map": "/preksha-portfolio/static/js/runtime-main.b5a19b64.js.map",
-    "static/js/2.4a74668a.chunk.js": "/preksha-portfolio/static/js/2.4a74668a.chunk.js",
-    "static/js/2.4a74668a.chunk.js.map": "/preksha-portfolio/static/js/2.4a74668a.chunk.js.map",
+    "static/js/2.1a2a4775.chunk.js": "/preksha-portfolio/static/js/2.1a2a4775.chunk.js",
+    "static/js/2.1a2a4775.chunk.js.map": "/preksha-portfolio/static/js/2.1a2a4775.chunk.js.map",
     "index.html": "/preksha-portfolio/index.html",
-    "static/css/main.10137381.chunk.css.map": "/preksha-portfolio/static/css/main.10137381.chunk.css.map",
-    "static/js/2.4a74668a.chunk.js.LICENSE.txt": "/preksha-portfolio/static/js/2.4a74668a.chunk.js.LICENSE.txt",
-    "static/media/Beecomingme.61ae9444.jpg": "/preksha-portfolio/static/media/Beecomingme.61ae9444.jpg",
-    "static/media/BudgetTracker.2a8e2b61.jpg": "/preksha-portfolio/static/media/BudgetTracker.2a8e2b61.jpg",
-    "static/media/Clouds.1f0da54b.jpg": "/preksha-portfolio/static/media/Clouds.1f0da54b.jpg",
-    "static/media/FitnessTracker.a3df8873.jpg": "/preksha-portfolio/static/media/FitnessTracker.a3df8873.jpg",
-    "static/media/IMG_20170908_135256.8c4561bd.jpg": "/preksha-portfolio/static/media/IMG_20170908_135256.8c4561bd.jpg",
-    "static/media/Mirum.4ef4057b.jpg": "/preksha-portfolio/static/media/Mirum.4ef4057b.jpg",
-    "static/media/Two-City-Comparison-Tool.2480571f.jpg": "/preksha-portfolio/static/media/Two-City-Comparison-Tool.2480571f.jpg",
-    "static/media/planner.c5240af3.jpg": "/preksha-portfolio/static/media/planner.c5240af3.jpg"
+    "static/css/main.809bf844.chunk.css.map": "/preksha-portfolio/static/css/main.809bf844.chunk.css.map",
+    "static/js/2.1a2a4775.chunk.js.LICENSE.txt": "/preksha-portfolio/static/js/2.1a2a4775.chunk.js.LICENSE.txt",
+    "static/media/MyPic.64ed8f97.jpg": "/preksha-portfolio/static/media/MyPic.64ed8f97.jpg",
+    "static/media/beecoming-me.61ae9444.jpg": "/preksha-portfolio/static/media/beecoming-me.61ae9444.jpg",
+    "static/media/budget-tracker.2a8e2b61.jpg": "/preksha-portfolio/static/media/budget-tracker.2a8e2b61.jpg",
+    "static/media/fitness-tracker.a3df8873.jpg": "/preksha-portfolio/static/media/fitness-tracker.a3df8873.jpg",
+    "static/media/mirum.4ef4057b.jpg": "/preksha-portfolio/static/media/mirum.4ef4057b.jpg",
+    "static/media/two-city-comparison-tool.2480571f.jpg": "/preksha-portfolio/static/media/two-city-comparison-tool.2480571f.jpg",
+    "static/media/weather-dashboard.1f0da54b.jpg": "/preksha-portfolio/static/media/weather-dashboard.1f0da54b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b5a19b64.js",
-    "static/js/2.4a74668a.chunk.js",
-    "static/css/main.10137381.chunk.css",
-    "static/js/main.06fe5645.chunk.js"
+    "static/js/2.1a2a4775.chunk.js",
+    "static/css/main.809bf844.chunk.css",
+    "static/js/main.0ff9ed1d.chunk.js"
   ]
 }
